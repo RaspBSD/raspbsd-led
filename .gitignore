@@ -1,0 +1,17 @@
+*.o
+*.so*
+*.a
+*.po
+*.Po
+*.So
+*.lo
+*.la
+*.core
+*.gmon
+*.log
+*.gz
+*.pc
+
+# Generated files:
+flash-heartbeat-led
+
