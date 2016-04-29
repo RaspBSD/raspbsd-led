@@ -68,7 +68,6 @@ main(void) {
 		errx(errno, "Unable to fork");
 	}
 	if (pid > 0) {
-		printf("PID: %d\n", pid);
 		fprintf(pidfp, "%d\n", pid);
 		fclose(pidfp);
 		return(0);
